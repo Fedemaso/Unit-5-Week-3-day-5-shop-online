@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ShopOnline.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1 class="text-center my-4" style="color:white; font-size:2em ">Prodotti</h1>
-    <div class="product-list">
+    <asp:Button ID="GoToCartButton" runat="server" Text="Vai al Carrello" OnClick="GoToCartButton_Click" CssClass="btn btn-secondary" />
+    <div class="product-list"> 
         <div class="container">
     <div class="row">
         <asp:Repeater ID="ProductRepeater" runat="server">
