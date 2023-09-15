@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ShopOnline.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="Content/bootstrap.css" rel="stylesheet" />
+        <link href="Content/Site.css" rel="stylesheet" />
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:black">
+    <form id="form1" runat="server">
+        <nav style="height:150px; background-color:black">
+            <img style="height:150px" src="https://rare-gallery.com/uploads/posts/1105896-colorful-illustration-video-games-black-background-text-logo-simple-brand-Pacman-classics-finger-shape-number-games-screenshot-computer-wallpaper-font.jpg" alt=" logo">
+
+        </nav>
+
+
+
+
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
